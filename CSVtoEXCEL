@@ -1,0 +1,4 @@
+import pandas as pd
+
+df = pd.read_csv("input.csv") # Source path with file name
+df.to_excel("output.xlsx", index=False) # Destination path with file name
